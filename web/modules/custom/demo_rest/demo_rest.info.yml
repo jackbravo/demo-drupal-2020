@@ -1,0 +1,5 @@
+name: 'Demo REST'
+type: module
+description: 'REST custom demo view'
+core: 8.x
+package: 'Custom'
