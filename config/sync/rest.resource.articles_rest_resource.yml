@@ -1,0 +1,17 @@
+uuid: 5983524b-7393-4642-a1d5-c169fd69187b
+langcode: en
+status: true
+dependencies:
+  module:
+    - basic_auth
+    - demo_rest
+    - serialization
+id: articles_rest_resource
+plugin_id: articles_rest_resource
+granularity: method
+configuration:
+  GET:
+    supported_formats:
+      - json
+    supported_auth:
+      - basic_auth
